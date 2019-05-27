@@ -17,13 +17,13 @@ const ToDoList = (props) => {
                                 disabled={props.updateIndex !== undefined && props.toDoList[props.updateIndex] === item? true: false}
                             >
 
-                                <Container>
+                                <Container >
                                     <Row>
-
-                                        <Col lg={6} className='float-left'>
+                                       
+                                        <Col lg={6} xs={12}>
                                             {item}
                                         </Col>
-                                        <Col lg={6} className='float-right'>
+                                        <Col lg={6} className='float-right' xs={12}>
                                             <Button 
                                                 onClick={() => props.deleteToDo(idx)} 
                                                 variant="link" 

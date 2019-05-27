@@ -5,13 +5,11 @@ import Input from './components/input';
 
 import ToDoList from './components/to_do_list';
 
-// ['Eat some sushi', 'Chill', 'Make dinner!'],
 class App extends Component {
   state = {
     app_name: 'Simple To Do List',
     to_do_item: '',
-    to_do_list: [`Don't forget to treat Marlee nice`, 
-      `Quit playing games`, `Stop being hard-headed`],
+    to_do_list: ['Eat some sushi', 'Chill', 'Make dinner!'],
     button_text: 'Add',
     button_variant: 'primary',
     input_prepend_text: 'Enter a to do',
