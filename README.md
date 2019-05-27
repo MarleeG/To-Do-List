@@ -9,4 +9,4 @@
 - [Semantic UI](https://semantic-ui.com)
 
 ## Deployed App - Coming Soon
-* To-Do-List - App  
+* To-Do-List - App
