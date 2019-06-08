@@ -6,7 +6,6 @@ const ToDoList = (props) => {
         <div>
             <ListGroup className='mt-3' as="ul">
                 {props.toDoList.length > 0 &&
-
                     props.toDoList.map((item, idx) => {
                         return (
                             <ListGroup.Item 
