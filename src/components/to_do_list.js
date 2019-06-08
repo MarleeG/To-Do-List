@@ -16,7 +16,6 @@ const ToDoList = (props) => {
                                 action
                                 disabled={props.updateIndex !== undefined && props.toDoList[props.updateIndex] === item? true: false}
                             >
-
                                 <Container >
                                     <Row>
                                         <Col lg={6} xs={12}>
