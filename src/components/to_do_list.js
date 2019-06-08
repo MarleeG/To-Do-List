@@ -19,7 +19,6 @@ const ToDoList = (props) => {
 
                                 <Container >
                                     <Row>
-                                       
                                         <Col lg={6} xs={12}>
                                             {item}
                                         </Col>
