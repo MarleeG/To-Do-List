@@ -1,7 +1,6 @@
 import React from 'react';
 import { InputGroup, FormControl, Form, Button, Col } from 'react-bootstrap';
 
-
 const Input = props => {
     return(
         <div className='mt-3'>
