@@ -8,5 +8,5 @@
 - [React Bootstrap](https://react-bootstrap.github.io)
 - [Semantic UI](https://semantic-ui.com)
 
-## Deployed App - Coming Soon
+## Deployed App
 * [To-Do-List](https://todolist-mcg.herokuapp.com/) - App
